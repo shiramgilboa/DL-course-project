@@ -38,6 +38,9 @@ for ready-to-use data:
 
 run models.ipynb and ******* to get results
 
+note:
+XGBoost optimization notebook was used to optimize XGBoost for comparison with the DL models and does not need to be run again.
+
 ---
 ## Sources
 
