@@ -23,7 +23,7 @@
 - RTDL results notebook **********
 - Raw data - CSV file ("preprocessed_data.csv")
 - Pre-processed data ("Covid Data.csv")
-
+- XGBoost optimization notebook ("xgboost_optimizing.ipynb")
 ---
 
 ## How to Use
