@@ -20,7 +20,7 @@
   2. pre_proccessing_helpers.py
 - Data pre-processing notebook ("data_pre_precossing.ipynb")
 - TabNet, XGBoost and FC neural network results notebook ("models.ipynb")
-- RTDL results notebook **********
+- RTDL results notebook ("rtdl.ipynb")
 - XGBoost optimization notebook ("xgboost_optimizing.ipynb")
 ---
 
@@ -29,10 +29,11 @@
 - Create a folder for all the code files, inside it create another folder named 'data'
 - Download dataset from link bellow 
 - In data pre-processing notebook, delete '#' from last row in last block and run the code
-- Run models.ipynb and ******* to get results
+- Run models.ipynb, upload 'preprocessed_data.csv'. Choose data type [original, upsampled, downsampled] and run to get results.
+![image](https://user-images.githubusercontent.com/76391110/215355078-2bfda5ec-ed86-46c3-920f-0b451f909c4c.png)
 
 note:
-XGBoost optimization notebook was used to optimize XGBoost paremeters (for comparison with the DL models) and does not need to be run again.
+XGBoost optimization notebook was used to optimize XGBoost parameters (for comparison with the DL models) and does not need to be run again.
 
 ---
 ## Sources
@@ -45,3 +46,6 @@ https://www.kaggle.com/datasets/meirnizri/covid19-dataset
 
 ### TabNet pyTorch documentation:
 https://dreamquark-ai.github.io/tabnet/
+
+### rtdl article: 
+https://arxiv.org/abs/2106.11959
