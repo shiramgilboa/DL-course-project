@@ -21,25 +21,18 @@
 - Data pre-processing notebook ("data_pre_precossing.ipynb")
 - TabNet, XGBoost and FC neural network results notebook ("models.ipynb")
 - RTDL results notebook **********
-- Raw data - CSV file ("preprocessed_data.csv")
-- Pre-processed data ("Covid Data.csv")
 - XGBoost optimization notebook ("xgboost_optimizing.ipynb")
 ---
 
 ## How to Use
-first install TabNet to your work environment - "pip install pytorch-tabnet" 
-Download files into a single folder
-for data pre-processing:
-  delete '#' from last row in last block
-  run pre-processing notebook to create pre-processed data
-  
-for ready-to-use data:
-  use pre-processed data CSV file and run models 
-
-run models.ipynb and ******* to get results
+- First install TabNet to your work environment - "pip install pytorch-tabnet" 
+- Create a folder for all the code files, inside it create another folder named 'data'
+- Download dataset from link bellow 
+- In data pre-processing notebook, delete '#' from last row in last block and run the code
+- Run models.ipynb and ******* to get results
 
 note:
-XGBoost optimization notebook was used to optimize XGBoost for comparison with the DL models and does not need to be run again.
+XGBoost optimization notebook was used to optimize XGBoost paremeters (for comparison with the DL models) and does not need to be run again.
 
 ---
 ## Sources
